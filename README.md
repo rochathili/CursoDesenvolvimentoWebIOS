@@ -2,8 +2,9 @@
 
 ## Ferramentas utilizadas:
 - Visual Studio Code
-  -Extensão: Live Server
-  -Extensão: vscode-icons
+  - Extensões:
+    - Live Server
+    - vscode-icons
 - Google Chrome
 
 ## Conteúdo:
