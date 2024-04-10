@@ -1,0 +1,17 @@
+.quadrado{
+  height: 300px;
+  width: 300px;
+  margin: 15px;
+}
+
+#red{
+  background-color: red;
+}
+
+#green{
+  background-color: green;
+}
+
+#blue{
+  background-color: blue;
+}
