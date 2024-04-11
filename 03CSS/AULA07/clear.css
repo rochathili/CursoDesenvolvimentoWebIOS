@@ -4,9 +4,9 @@
 }
 
 #p1{
-  float: left;
+  float: right;
 }
 
 #p2{
-  clear: left;
+  clear: clear;
 }

@@ -1,0 +1,16 @@
+*{
+  margin: 5px;
+  box-sizing: content-box;
+}
+
+.box1{
+  border: 1px solid tomato;
+  height: 250px;
+  width: 250px;
+}
+
+.box2{
+  border: 1px solid maroon;
+  height: 250px;
+  width: 250px;
+}
