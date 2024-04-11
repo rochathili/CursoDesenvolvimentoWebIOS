@@ -1,0 +1,9 @@
+.container{
+  padding: 5px;
+  border: 1px solid;
+  overflow: auto; /* Overflow = vazamento/transbordar, ou seja, esse elemento controla o quanto algo pode ou não vazar para fora de seu encapsulamento */
+}
+
+.container img{
+  float: inline-start; 
+}
