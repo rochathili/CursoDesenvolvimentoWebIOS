@@ -4,13 +4,13 @@
 }
 
 .box1{
-  border: 1px solid tomato;
+  border: 5px solid tomato;
   height: 250px;
   width: 250px;
 }
 
 .box2{
-  border: 1px solid maroon;
+  border: 5px solid maroon;
   height: 250px;
   width: 250px;
 }
