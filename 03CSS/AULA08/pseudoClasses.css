@@ -1,0 +1,27 @@
+:root{
+  --COR-PRINCIPAL: green;
+  --COR-SECUNDARIA: orange;
+  --FONTE-TAMANHO: 1.5em;
+}
+
+nav{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: magenta;
+}
+
+a:hover{
+  background-color: red;
+  height: 25px;
+}
+
+h1{
+  color: var(--COR-PRINCIPAL);
+}
+
+p{
+  color: var(--COR-SECUNDARIA);
+  font-size: var(--FONTE-TAMANHO);
+}
+
