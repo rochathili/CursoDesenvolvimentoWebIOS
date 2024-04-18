@@ -15,11 +15,17 @@
   height: 100px;
   margin: 5px;
   border: 1px solid yellow;
+  color: white;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #box1 {
   order: 3;
   background-color: red;
+  align-self: flex-start;
 }
 
 #box2 {
@@ -30,4 +36,5 @@
 #box3 {
   order: 1;
   background-color: blue;
+  align-self: flex-end;
 }
