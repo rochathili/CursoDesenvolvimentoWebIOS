@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Exemplo Flex Shrink</title>
+  <style>
+    .container {
+      width: 200px;
+      height: 150px;
+      display: flex;
+      align-items: center;
+      /* Centraliza verticalmente */
+    }
+
+    img {
+      width: 300px;
+      /* Largura da imagem */
+      margin-right: 20px;
+      /* Espaço entre a imagem e o parágrafo */
+      flex-shrink: ;
+      /* Impede que a imagem encolha */
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <img src="/Experimentos/Salty.jpg" alt="Imagem de exemplo">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec justo euismod, cursus nunc vel, tincidunt
+      libero.</p>
+  </div>
+</body>
+
+</html>
