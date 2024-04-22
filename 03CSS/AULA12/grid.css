@@ -1,0 +1,8 @@
+.container{
+  background-color: purple;
+  color: white;
+  height: 50vh;
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px;
+
+}
