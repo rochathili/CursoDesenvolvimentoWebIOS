@@ -1,8 +1,33 @@
 .container{
   background-color: purple;
   color: white;
-  height: 50vh;
+  height: 100vh;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, 1fr);
+  grid-template-areas: 
+    "header header header header"
+    "aside main main main"
+    "aside main main main"
+    "footer footer footer footer";
+}
+
+#box1{
+  grid-area: header;  
+  background-color: aqua;
+}
+
+#box2{
+  grid-area: aside;
+  background-color: brown;
+}
+
+#box3{
+  grid-area: main;
+  background-color: yellowgreen;
+}
+
+#box4{
+  grid-area: footer;
+  background-color: yellow;
 }
